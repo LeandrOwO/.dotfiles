@@ -1,0 +1,18 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/data/data/com.termux/files/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/data/data/com.termux/files/usr/bin/gh auth git-credential
+[user]
+	email = 109572339+LeandrOwO@users.noreply.github.com
+	name = Lean
+[init]
+	defaultBranch = main
+[safe]
+	directory = /storage/emulated/0/Obsidian/Notes
+	directory = /data/data/com.termux/files/home/storage/emulated/0/Obsidian/Notes
+	directory = /data/data/com.termux/files/home/storage/emulated/0/Obsidian/
+	directory = /data/data/com.termux/files/home/storage/emulated/0/Obsidian
+	directory = /storage/emulated/0/Obsidian
+	directory = /storage/emulated/0/Obsidian/crossdevice-notes
