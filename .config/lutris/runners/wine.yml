@@ -1,0 +1,7 @@
+system: {}
+wine:
+  battleye: false
+  eac: false
+  esync: false
+  fsr: false
+  version: lutris-GE-Proton8-13-x86_64
