@@ -1,0 +1,26 @@
+{
+    "rules": [
+        {
+            "pattern": {
+                "feature": "procname",
+                "matches": "yuzu"
+            },
+            "profile": "Yuzu"
+        }
+    ],
+    "profiles": [
+        {
+            "name": "Yuzu",
+            "settings": [
+                {
+                    "key": "GLThreadedOptimizations",
+                    "value": true
+                },
+                {
+                    "key": "GLSyncToVblank",
+                    "value": false
+                }
+            ]
+        }
+    ]
+}
