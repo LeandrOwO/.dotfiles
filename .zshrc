@@ -109,7 +109,6 @@ plugins=(
   git
   zsh-syntax-highlighting
   zsh-autosuggestions
-  tmux
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -134,12 +133,14 @@ export EDITOR='nvim'
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias ls=exa
+alias ls=eza
+alias zj=zellij
+alias cat=bat
+
 alias dotfiles="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias mc="gamemoderun ~/Games/Minecraft/start"
 alias mc-server="gamemoderun ~/Games/Minecraft/versions/1.20.1/server/run.sh"
 alias mc-server-forge="cd ~/Games/Minecraft/versions/1.20.1-forge/server && gamemoderun ./run.sh"
-alias cat="bat"
 # alias zshconfig="nviim ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
