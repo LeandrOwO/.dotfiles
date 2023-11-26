@@ -129,7 +129,12 @@ export EDITOR='nvim'
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-alias ls=exa
+
+alias ls=eza
+alias zj=zellij
+alias cat=bat
+alias grep=rg
+
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias hors='hors -a -e google'
 # Example aliases

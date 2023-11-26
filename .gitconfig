@@ -16,3 +16,5 @@
 	directory = /data/data/com.termux/files/home/storage/emulated/0/Obsidian
 	directory = /storage/emulated/0/Obsidian
 	directory = /storage/emulated/0/Obsidian/crossdevice-notes
+[core]
+	pager = delta
