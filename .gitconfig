@@ -18,3 +18,6 @@
 	directory = /storage/emulated/0/Obsidian/crossdevice-notes
 [core]
 	pager = delta
+[credential "https://gitlab.com"]
+	helper = 
+	helper = !/data/data/com.termux/files/usr/bin/glab auth git-credential
