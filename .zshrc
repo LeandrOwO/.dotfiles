@@ -134,6 +134,8 @@ alias ls=eza
 alias zj=zellij
 alias cat=bat
 alias grep=rg
+alias termux-desktop-mode='cp $TERMUX_DIR/termux-desktop.properties $TERMUX_DIR/termux.properties && termux-reload-settings'
+alias termux-mobile-mode='cp $TERMUX_DIR/termux-mobile.properties $TERMUX_DIR/termux.properties && termux-reload-settings'
 
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias hors='hors -a -e google'
